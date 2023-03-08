@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678296226583,
+  "lastUpdate": 1678296395451,
   "repoUrl": "https://github.com/lucabart97/benchmark_test",
   "entries": {
     "C++ Benchmark": [
@@ -108,6 +108,42 @@ window.BENCHMARK_DATA = {
             "value": 337396501.29999745,
             "unit": "ns/iter",
             "extra": "iterations: 10\ncpu: 19480.00000000002 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "luca.bartoli@hipert.it",
+            "name": "Luca Bartoli",
+            "username": "lucabart97"
+          },
+          "committer": {
+            "email": "luca.bartoli@hipert.it",
+            "name": "Luca Bartoli",
+            "username": "lucabart97"
+          },
+          "distinct": true,
+          "id": "eb71312ca074cb8e981859608464c4a6ad3ae479",
+          "message": "push3",
+          "timestamp": "2023-03-08T18:25:42+01:00",
+          "tree_id": "362db99807e9cda87422e1723e845c74c3b712c3",
+          "url": "https://github.com/lucabart97/benchmark_test/commit/eb71312ca074cb8e981859608464c4a6ad3ae479"
+        },
+        "date": 1678296394897,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "SimpleTest1",
+            "value": 322129233.6000005,
+            "unit": "ns/iter",
+            "extra": "iterations: 10\ncpu: 33979.999999999985 ns\nthreads: 1"
+          },
+          {
+            "name": "SimpleTest2",
+            "value": 314935593.200002,
+            "unit": "ns/iter",
+            "extra": "iterations: 10\ncpu: 35350.00000000001 ns\nthreads: 1"
           }
         ]
       }
